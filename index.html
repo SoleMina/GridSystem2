@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap: Grid System</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="css/main.css">
+  
+    <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
+    <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->	
+</head>
+<body>
+	<!-- Inserta tu código aqui -->
+
+	<!-- Incluir todos tus scripts apartir de este punto -->
+    <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  <header class="container">
+   <!--Inicio Encabezado-->
+     <div class="encabezado clearfix">
+       <h1 class="logo pull-left">Site Name</h1>
+        <div class="login pull-right">
+          <ul>
+            <li>
+              <a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Noticias</a>
+            </li>
+            <li>
+              <a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Enlaces RSS</a>
+            </li>
+            <li>
+            <input type="text" class=" visible-md visible-lg form-control" placeholder="Ingresa tu búsqueda" aria-describedby="basic-addon1"></li>
+            <button type="button" class="visible-md visible-lg btn btn-default btn-lg active pull-right">Buscar</button>
+          </ul>
+        </div><!--fin enlaces-encabezado-->
+     </div><!--fin encabezado-->
+    
+    <!--...............Inicio Navegación..............-->
+     <div class="navegacion bg-menu-video">
+       
+        <nav class="navbar navbar-default">
+          <div class="container maximo">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Bienvenido<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Actualidades</a></li>
+                <li><a href="#">En directo</a></li>
+                <li><a href="#">Reporte financiero</a></li>
+                <li><a href="#">Nuestra oferta</a></li>
+                <li><a href="#">De nosotros a usted</a></li>
+              </ul>
+              
+            </div><!-- /.navbar-collapse -->
+          </div>
+          </nav>
+
+     </div><!--fin Navegación-->
+
+  </header>
+    <div class="container">
+        <div class="row">
+              <div class="col-lg-6 col-md-6 col-xs-12">
+                   <a href="#" class="history">Historia destacada</a>
+                  <article>
+                      <div class="caja">
+                          <p class="parrafo">Artículo <span class="fecha">Publicado el 09/10/15</span></p>
+                      </div>
+                      <h3 class="loremipsu">Lorem ipsum et diligat gentris</h3>
+                      <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulia quam velit vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quispe nec mauris sit amet elit pretium sit amet quis magna.</p>
+                      <a class="barrita1" href="#news"><i class="glyphicon glyphicon-bookmark"></i>Ver más...</a>
+                      <a class="barrita" href="#news"><i class="glyphicon glyphicon-bookmark"></i>Etiquetas: <span class="raya">lorem</span> <span class="raya">ipsum</span> <span class="raya">diligat</span></a>
+                  </article>
+                  <article>
+                      <div class="caja">
+                          <p class="parrafo"><a href="#" class="buton">Webzone</a><span class="raya">Preguntas</span><span class="fecha">Publicado el 09/10/15</span></p>
+                      </div>
+                      <h3 class="loremipsu">Lorem ipsum et diligat gentris</h3>
+                      <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulia quam velit vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quispe nec mauris sit amet elit pretium sit amet quis magna.</p>
+                      <a class="barrita1" href="#news"><i class="glyphicon glyphicon-bookmark"></i>Ver más...</a>
+                      <a class="barrita" href="#news"><i class="glyphicon glyphicon-bookmark"></i>Etiquetas: <span class="raya">lorem</span> <span class="raya">ipsum</span> <span class="raya">diligat</span></a>
+                  </article>
+                  <article>
+                      <div class="caja">
+                          <p class="parrafo">Artículo <span class="fecha">Publicado el 09/10/15</span></p>
+                      </div>
+                          <h3 class="loremipsu">Etiam lorem et suspira nostres</h3>
+                          <div class="cajillaprincipal">
+                          <h3 class="foto">FOTO</h3>
+                          </div>
+                          <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulia quam velit vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quispe nec mauris sit amet elit pretium sit amet quis magna.</p>
+                          <a class="barrita1" href="#news"><i class="glyphicon glyphicon-bookmark"></i>Ver más...</a>
+                          <a class="barrita" href="#news"><i class="glyphicon glyphicon-bookmark"></i>Etiquetas: <span class="raya">lorem</span> <span class="raya">ipsum</span> <span class="raya">diligat</span></a>
+                  </article>
+                  <article class="cuadrodeiconos">
+                          <h3 class="loremipsu">Lorem ipsum et diligat gentris</h3>
+                          <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulia quam velit vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quispe nec mauris sit amet elit pretium sit amet quis magna.</p>
+                        <div class="iconosfinales">
+                          <a class="barrita1" href="#news"><i class="glyphicon glyphicon-bookmark"></i>Ver más...</a>
+                          <a class="barrita" href="#news"><i class="glyphicon glyphicon-bookmark"></i>Etiquetas: <span class="raya">lorem</span> <span class="raya">ipsum</span> <span class="raya">diligat</span></a>
+                        </div>
+                  </article>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="cajotaprincipal">
+                      <a href="#" class="history">Historia destacada</a>
+                      <div class="televisor">
+                            <iframe width="340" height="220" src="https://www.youtube.com/embed/nVCubhQ454c" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                          <h3 class="loremipsu plano">Claire Dupon</h3>
+                          <p class="parrafo1 plano">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulia quam velit vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quispe nec mauris sit amet elit pretium sit amet quis magna.</p>
+                          <span class="fecha plano">Publicado el 09/10/15</span><a class="barrita2" href="#news"><i class="glyphicon glyphicon-bookmark"></i>Ver más...</a>
+                    </div>
+                    <div class="agendas">
+                          <a href="#" class="agenda">Agenda</a>
+                          <article>
+                              <div class="cuadro first">
+                                <div class="cuadrado">23 Enero</div><h3 class="loremipsu1">Lorem ipsum et diligat</h3>
+                                <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <span class="fecha">De 23 a 28 de setiembre 2015.</span>
+                              </div>
+                              <div class="cuadro">
+                                <div class="cuadrado">23 Enero</div><h3 class="loremipsu1">Lorem ipsum et diligat</h3>
+                                <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <span class="fecha">De 23 a 28 de setiembre 2015.</span>
+                              </div>
+                              <div class="cuadro">
+                                <div class="cuadrado">23 Enero</div><h3 class="loremipsu1">Lorem ipsum et diligat</h3>
+                                <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <span class="fecha">De 23 a 28 de setiembre 2015.</span>
+                              </div>
+                              <div class="cuadro final">
+                                <div class="cuadrado">23 Enero</div><h3 class="loremipsu1">Lorem ipsum et diligat</h3>
+                                <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <span class="fecha">De 23 a 28 de setiembre 2015.</span>
+                              </div>
+                          </article>
+                          <div class="cajaterciaria">
+                                <h3 class="loremipsu2 section">Más información</h3>
+                                <a href="#"><span class="raya">Localidades</span></a>
+                                <h3 class="loremipsu1 size">Lorem ipsum et diligat</h3>
+                                <p class="parrafo1 espacio">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                          </div>
+                          <div class="cajaterciaria">
+                                <a href="#"><span class="raya">Hospimedia</span></a>
+                                <h3 class="loremipsu1 size">Lorem ipsum et diligat</h3>
+                                <p class="parrafo1 espacio">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                          </div>
+                    </div>
+              </div>
+              <div class="col-lg-2 col-md-2 col-xs-12">
+                         <article class="cajaterciaria">
+                              <h3 class="loremipsu2 section">Más información</h3>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Finanzas y fiscalización</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Investigación y equipos</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Medio Ambiente</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Habitat/ Urbanismo</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Sanidad</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Social/ Servicios</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Transporte</a></p>
+                          </article>
+                          <div class="cajamagazine">
+                                   <h3 class="loremipsu3">MAGAZINE <span class="ecodefi">ECODEFI</span></h3>
+                                   <h6>ENQUETE</h6>
+                                   <p class="parrafo1 ipsu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
+                                   <h6>PREGUNTAS</h6>
+                                   <p class="parrafo1 ipsu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quam velit.</p>
+                          </div>
+                          <div class="cajamagazine">
+                                   <h3 class="loremipsu4">MAGAZINE <span class="ecodefi">ACIONES COMUNES</span></h3>
+                                   <h6>ENQUETE</h6>
+                                   <p class="parrafo1 ipsu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
+                                   <h6>PREGUNTAS</h6>
+                                   <p class="parrafo1 ipsu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quam velit.</p>
+                          </div>
+                          <div class="cajamagazine">
+                                   <h6 class="internet">Nueva generación de la internet</h6>
+                          </div>
+              </div>
+        </div>
+    </div>
+    <footer>
+            <div class="container borde">
+                  <div class="row">
+                        <div class="col-lg-3 col-md-3 col-xs-6">
+                            <h5 class="rubros">Rubros</h5>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Actualidades</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>En directo</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Reporte Financiero</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Nuestra Oferta</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>De nosotros a ustedes</a></p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-xs-6">
+                            <h5 class="rubros">Expertise</h5>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Finanzas y fiscalización</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Investigación y equipos</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Medio Ambiente</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Habitat/ Urbanismo</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Sanidad</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Social/ Servicios</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Transporte</a></p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-xs-6">
+                              <h5 class="rubros">Suscripción</h5>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Todo el flujo</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Flujo RSS para expertos</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Noticias</a></p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-xs-6">
+                            <h5 class="rubros">Nosotros</h5>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>¿Quiénes somos?</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Plan del sitio</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Información legal</a></p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-xs-6">
+                            <h5 class="rubros">Contacto</h5>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Contáctanos</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>FAQ</a></p>
+                              <p class="parrafoicono"><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Haga sus preguntas</a></p>
+                        </div>
+                  </div>
+            </div>
+    </footer>
+</body>
+</html>
