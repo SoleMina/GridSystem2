@@ -117,7 +117,9 @@ i {
 iframe {
 	overflow: hidden;
 	max-width: 100%;
+	min-width: 100%;
 }
+
 .televisor{
 	width: 95%;
 	height: 220px;
@@ -144,6 +146,34 @@ iframe {
 }
 .first {
 	margin-top: 10%;
+}
+.cuadro {
+	width: 100%;
+}
+.text-agenda h3{
+	background: #929292;
+	color: white;
+	padding: 1%;
+	width: 35%;
+}
+.box-fecha{
+	width: 90px;
+	height: 90px;
+	background: #929292;
+	padding: 0.8%;
+	text-align: center;
+	color: black;
+	margin-bottom: 8%;
+}
+.box-agenda h4{
+	margin: 2% 0;
+	padding: 0;
+}
+.box-agenda p{
+	font-size: 0.8em;
+	padding: 0;
+	margin: 3.3% 0;
+	color:#AAAAAA;
 }
 .cuadrado {
 	width: 95px;
@@ -203,6 +233,9 @@ iframe {
    padding-left: 4%;
    padding-right: 6%;
 }
+.cuadrodeiconos {
+	border-bottom: none;
+}
 .loremipsu4 {
    padding-top: 5%;
    font-size: 15px;
@@ -253,4 +286,14 @@ h6{
     	max-width: 100%;
     }
 
+}
+@media screen and (max-width : 600) {
+    .container{
+        width: 100%;
+    }
+    iframe {
+    	max-width: 100%;
+    }
+    .cuadro {
+	width: 40%;
 }
